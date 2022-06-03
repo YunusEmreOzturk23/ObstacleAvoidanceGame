@@ -9,6 +9,7 @@ TagManager:
   - geri
   - skor
   - engel
+  - bomba
   layers:
   - Default
   - TransparentFX
