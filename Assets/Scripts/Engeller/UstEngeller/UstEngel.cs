@@ -15,7 +15,7 @@ public class UstEngel : Engeller
     {
         
     }
-    public override void OnCollisionEnter2D(Collision2D collision)
+    public virtual void OnCollisionEnter2D(Collision2D collision)
     {
         rastgele = Random.Range(-7.90f, 7.90f);
         if (collision.gameObject.tag == "zemin" || collision.gameObject.tag=="karakter")

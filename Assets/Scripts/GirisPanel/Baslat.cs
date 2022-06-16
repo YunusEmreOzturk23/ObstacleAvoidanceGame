@@ -25,4 +25,5 @@ public class Baslat : MonoBehaviour
     {
         tekrarText.text = "Sen Bilirsin. Oynamak için evet tusuna bas";
     }
+  
 }

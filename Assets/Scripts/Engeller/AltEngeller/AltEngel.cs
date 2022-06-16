@@ -15,17 +15,14 @@ public class AltEngel : Engeller
     {
         Hareket();
     }
-    public override void OnCollisionEnter2D(Collision2D collision)
+    public virtual void OnCollisionEnter2D(Collision2D collision)
     {
         rastgele = Random.Range(-2.50f, -0.2f);
         if (collision.gameObject.tag == "geri" || collision.gameObject.tag == "karakter")
         {
             engel.position =new Vector2(9.17f, rastgele);
         }
-        if (collision.gameObject.tag == "karakter")
-        {
-            engelSesi.Play();
-        }
+        
 
     }
     public virtual void Hareket()

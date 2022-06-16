@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bomba : AltEngel
 {
-    public Karakter karakter;
+ 
     // Start is called before the first frame update
     void Start()
     {
@@ -19,9 +19,9 @@ public class Bomba : AltEngel
     public override void OnCollisionEnter2D(Collision2D collision)
     {
         base.OnCollisionEnter2D(collision);
-        if (collision.gameObject.tag=="karakter")
+        if (collision.gameObject.tag == "karakter")
         {
-            Destroy(karakter, 0.5f);
+            engelSesi.Play();
         }
     }
     public override void Hareket()

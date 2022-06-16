@@ -18,9 +18,5 @@ public class Engeller : MonoBehaviour
     {
         
     }
-    public virtual void OnCollisionEnter2D(Collision2D collision)
-    {
-        rastgele = Random.Range(-5, 5);
-        
-    }
+
 }
