@@ -7,9 +7,10 @@ public class Baslat : MonoBehaviour
     
 {    // Start is called before the first frame update
     public TextMeshProUGUI tekrarText;
+ 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

@@ -1,0 +1,525 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'tr' Physical Memory: 7103 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/oztur/Unity/ObstacleAvoidanceGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53926
+Successfully changed project path to: C:/Users/oztur/Unity/ObstacleAvoidanceGame
+C:/Users/oztur/Unity/ObstacleAvoidanceGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11672] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 4178358731 [EditorId] 4178358731 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TA5FNJUF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11672] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 4178358731 [EditorId] 4178358731 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TA5FNJUF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 37.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oztur/Unity/ObstacleAvoidanceGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) RX Vega 10 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     3551 MB
+    Driver:   26.20.11030.14002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.109043 seconds.
+- Loaded All Assemblies, in  2.661 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 805 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.849 seconds
+Domain Reload Profiling: 4506ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (451ms)
+	LoadAllAssembliesAndSetupDomain (1758ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1743ms)
+			TypeCache.Refresh (1739ms)
+				TypeCache.ScanAssembly (1678ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1633ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1105ms)
+			SetLoadedEditorAssemblies (19ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.940 seconds
+Refreshing native plugins compatible for Editor in 6.02 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.385 seconds
+Domain Reload Profiling: 4315ms
+	BeginReloadAssembly (522ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (149ms)
+	LoadAllAssembliesAndSetupDomain (1130ms)
+		LoadAssemblies (1025ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (423ms)
+			TypeCache.Refresh (345ms)
+				TypeCache.ScanAssembly (302ms)
+			ScanForSourceGeneratedMonoScriptInfo (39ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (2386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1816ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (135ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (1377ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 9.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (59.3 KB). Loaded Objects now: 2943.
+Memory consumption went from 117.2 MB to 117.2 MB.
+Total: 12.935600 ms (FindLiveObjects: 0.643500 ms CreateObjectMapping: 0.545600 ms MarkObjects: 10.802700 ms  DeleteObjects: 0.939500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1044185.343922 seconds.
+  path: Assets/Scripts/bicak.prefab
+  artifactKey: Guid(faf4c39cf0acc5e42910ae19e35b1a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/bicak.prefab using Guid(faf4c39cf0acc5e42910ae19e35b1a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674a5a9af34b497bb1958119158ebb23') in 0.264825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 12.401408 seconds.
+  path: Assets/DataBase
+  artifactKey: Guid(ace9e25bb63e7cc45b6ac2ca5485905d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DataBase using Guid(ace9e25bb63e7cc45b6ac2ca5485905d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1b0dc487df66f72b0c71ca18ad8591') in 0.001354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.560720 seconds.
+  path: Assets/Database
+  artifactKey: Guid(ace9e25bb63e7cc45b6ac2ca5485905d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database using Guid(ace9e25bb63e7cc45b6ac2ca5485905d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d534ffdf213cf74285d173d0005f354') in 0.001376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.741409 seconds.
+  path: Assets/SQLite4Unity3d
+  artifactKey: Guid(190a090bdc1e30d4ca8c1e2a3c4d9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SQLite4Unity3d using Guid(190a090bdc1e30d4ca8c1e2a3c4d9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0ab7dde3d0fd01be2078a1725ee274') in 0.038780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002678 seconds.
+  path: Assets/SQLite4Unity3d/SQLite4Unity3d/Plugins
+  artifactKey: Guid(a2cfe6fcb408e5d4a93cad132c437049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SQLite4Unity3d/SQLite4Unity3d/Plugins using Guid(a2cfe6fcb408e5d4a93cad132c437049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e08392468dd4b0436e39191109e0350') in 0.025046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.294773 seconds.
+  path: Assets/SQLite4Unity3d/SQLite4Unity3d/Plugins/x64
+  artifactKey: Guid(5812ada59c1dc5c4c84d7a83f7caddc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SQLite4Unity3d/SQLite4Unity3d/Plugins/x64 using Guid(5812ada59c1dc5c4c84d7a83f7caddc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c879beedc8d657d8b539678695b4c3b7') in 0.007638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.040530 seconds.
+  path: Assets/ScriptUser/LoginManager.cs
+  artifactKey: Guid(d648dae8123441f4cbc7c95da118151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptUser/LoginManager.cs using Guid(d648dae8123441f4cbc7c95da118151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf4a5ad04495b56c7d296e930a403dc') in 0.001611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.553240 seconds.
+  path: Assets/ScriptUser/DatabaseManager.cs
+  artifactKey: Guid(6c93cbdc87cd72d4da155968111951b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptUser/DatabaseManager.cs using Guid(6c93cbdc87cd72d4da155968111951b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb843f6f554dd9809799611b8bd6629') in 0.001298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 135.927599 seconds.
+  path: Assets/Scripts/SQLiteManager.cs
+  artifactKey: Guid(8f62a8f4bf4b7284ea4bb737defec2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SQLiteManager.cs using Guid(8f62a8f4bf4b7284ea4bb737defec2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95293ee4738991b0c54ed8876ae27f8') in 0.008080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.607 seconds
+Multiple plugins with the same name 'sqlite3' (found at 'Assets/SQLite4Unity3d/SQLite4Unity3d/Plugins/x64/sqlite3.dll' and 'Assets/Plugins/sqlite3.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 23.04 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.670 seconds
+Domain Reload Profiling: 6271ms
+	BeginReloadAssembly (964ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (136ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (353ms)
+	RebuildCommonClasses (211ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (1283ms)
+		LoadAssemblies (1500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (51ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (1046ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Multiple plugins with the same name 'sqlite3' (found at 'Assets/SQLite4Unity3d/SQLite4Unity3d/Plugins/x64/sqlite3.dll' and 'Assets/Plugins/sqlite3.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 18.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2452 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (36.8 KB). Loaded Objects now: 2955.
+Memory consumption went from 112.1 MB to 112.1 MB.
+Total: 12.783100 ms (FindLiveObjects: 0.980700 ms CreateObjectMapping: 0.671500 ms MarkObjects: 10.997400 ms  DeleteObjects: 0.130900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.301 seconds
+Refreshing native plugins compatible for Editor in 14.12 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.444 seconds
+Domain Reload Profiling: 6719ms
+	BeginReloadAssembly (684ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (121ms)
+	RebuildCommonClasses (183ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (1234ms)
+		LoadAssemblies (1638ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (4445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (124ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (1595ms)
+			ProcessInitializeOnLoadMethodAttributes (234ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Refreshing native plugins compatible for Editor in 28.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2452 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (35.3 KB). Loaded Objects now: 2959.
+Memory consumption went from 114.2 MB to 114.2 MB.
+Total: 50.299500 ms (FindLiveObjects: 0.594300 ms CreateObjectMapping: 1.671900 ms MarkObjects: 45.525900 ms  DeleteObjects: 2.503900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 202.702166 seconds.
+  path: Assets/Database/New Text Color Gradient.asset
+  artifactKey: Guid(8d82b9ec344744646919449a349dd7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/New Text Color Gradient.asset using Guid(8d82b9ec344744646919449a349dd7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919eacab079bcca9ea085eaaba9dfc3f') in 0.036894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.359478 seconds.
+  path: Assets/Database/user.asset
+  artifactKey: Guid(8d82b9ec344744646919449a349dd7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/user.asset using Guid(8d82b9ec344744646919449a349dd7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef95ff9b1548dd7a211ff45333c3fc4') in 0.002861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.252314 seconds.
+  path: Assets/Database/users.txt.asset
+  artifactKey: Guid(8d82b9ec344744646919449a349dd7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Database/users.txt.asset using Guid(8d82b9ec344744646919449a349dd7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb94f1214a588d685d26230fe901892') in 0.003870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 160.211664 seconds.
+  path: Assets/SQLite4Unity3d/SQLite4Unity3d/Plugins/x64/sqlite3.dll
+  artifactKey: Guid(3925143c1d85af54fa3aa359db924d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SQLite4Unity3d/SQLite4Unity3d/Plugins/x64/sqlite3.dll using Guid(3925143c1d85af54fa3aa359db924d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db9c84150b417dc0ebc1b817cb11e40') in 0.001052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 496.398420 seconds.
+  path: Assets/Plugins/x64
+  artifactKey: Guid(9f5871b35139dae48ae4ee3a06d07f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/x64 using Guid(9f5871b35139dae48ae4ee3a06d07f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6687d2c179748d2d8a75ce1006c88b8c') in 0.019963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.863377 seconds.
+  path: Assets/Plugins/x86
+  artifactKey: Guid(19fcc3c9a160a364cb171cb9a2259ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/x86 using Guid(19fcc3c9a160a364cb171cb9a2259ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6221bdb04f151dea5e23d74e79936ef8') in 0.003844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.440255 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(25a00d1d6b4b8bb408a11911c49cf104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(25a00d1d6b4b8bb408a11911c49cf104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc7c380127d170a0aa8c870112c21b1') in 0.005873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 70.160621 seconds.
+  path: Assets/Plugins/sqlite3.dll
+  artifactKey: Guid(6842436848c056c46ae2e44f0b61c242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/sqlite3.dll using Guid(6842436848c056c46ae2e44f0b61c242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cad75b930f1ee02f6abce0e403df08') in 0.003545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 926.084933 seconds.
+  path: Assets/Plugins/SQLitePCL.raw-master
+  artifactKey: Guid(a30755ddf9b2b8e4ab20c59373ce2489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SQLitePCL.raw-master using Guid(a30755ddf9b2b8e4ab20c59373ce2489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7cf9786a9ab367f7e3ecfe92d0a262') in 0.021904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 158.737326 seconds.
+  path: Assets/Plugins/SQLite4Unity3d
+  artifactKey: Guid(c60e5e5692a4c3e47a27e3baf565e990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SQLite4Unity3d using Guid(c60e5e5692a4c3e47a27e3baf565e990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbac2478924ba19fe9863c9b93a02b7') in 0.013727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.344067 seconds.
+  path: Assets/Plugins/SQLite4Unity3d/SQLite4Unity3d
+  artifactKey: Guid(dcca05085259cc24f89fc4897da90b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SQLite4Unity3d/SQLite4Unity3d using Guid(dcca05085259cc24f89fc4897da90b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0da2d444611bb6bfea6c2a6aeeae9c') in 0.014036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.013270 seconds.
+  path: Assets/Plugins/SQLite4Unity3d/SQLite4Unity3d/Plugins
+  artifactKey: Guid(48b49000d837fe040b0d4067825913de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SQLite4Unity3d/SQLite4Unity3d/Plugins using Guid(48b49000d837fe040b0d4067825913de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a23b02ae69bade1098119fad30cff18') in 0.008848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.099479 seconds.
+  path: Assets/Plugins/SQLite4Unity3d/SQLite4Unity3d/Plugins/x64
+  artifactKey: Guid(fe4b9b4a4df627449aec4ffc29cfbb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SQLite4Unity3d/SQLite4Unity3d/Plugins/x64 using Guid(fe4b9b4a4df627449aec4ffc29cfbb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3694570666ca067ba1d72ad31d6a05') in 0.005896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 109.250432 seconds.
+  path: Assets/Plugins/SQLitePCL.raw-master/SQLitePCL.raw-master
+  artifactKey: Guid(b2ddc5fcbb662d14ba13bd7412c8b137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SQLitePCL.raw-master/SQLitePCL.raw-master using Guid(b2ddc5fcbb662d14ba13bd7412c8b137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c1c3a345496acbdb2920bd4dd3d738') in 0.010354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.748775 seconds.
+  path: Assets/Plugins/SQLite4Unity3d/SQLite4Unity3d/SQLite.cs
+  artifactKey: Guid(785b9517fc59e634db8aeb4249e90f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SQLite4Unity3d/SQLite4Unity3d/SQLite.cs using Guid(785b9517fc59e634db8aeb4249e90f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf8b63e3876e30dd6694528eddcec71') in 0.006327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
